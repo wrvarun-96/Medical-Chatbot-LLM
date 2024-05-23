@@ -6,7 +6,7 @@ Conversational AI: Utilizes the LLAMA2 LLM for natural language understanding an
 Efficient Querying: Integrates FAISS vectorDB for fast and accurate information retrieval.
 Scalable Architecture: Built with Langchain to manage the conversation flow and maintain context.
 Table of Contents
-Installation
+1) Installation
 Usage
 Architecture
 ## Installation
@@ -21,7 +21,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/Medical_Chatbot.git
+git clone https://github.com/wrvarun-96/Medical_Chatbot.git
 cd Medical_Chatbot
 Install the required packages:
 
