@@ -13,8 +13,8 @@ Table of Contents
 Prerequisites
 Ensure you have the following installed:
 
-1)Python 3.9 or higher
-2)pip (Python package installer)
+1) Python 3.9 or higher
+2) pip (Python package installer)
 3) git
 ## Steps
 Clone the repository:
@@ -41,12 +41,12 @@ Once the chatbot is running, you can interact with it via the terminal or a web 
 ## Architecture
 The Medical Chatbot is built using the following components:
 
--> LLAMA2 : Provides the natural language understanding and generation capabilities.
--> Langchain: Manages the conversation flow and maintains context across interactions.
--> FAISS vectorDB: Facilitates fast and efficient information retrieval for answering queries.
+1) LLAMA2 : Provides the natural language understanding and generation capabilities.
+2) Langchain: Manages the conversation flow and maintains context across interactions.
+3) FAISS vectorDB: Facilitates fast and efficient information retrieval for answering queries.
 ## High-Level Overview
--> User Input: The user inputs a query.
--> Processing: Langchain processes the input and interacts with the LLAMA2 model.
--> Query Handling: If the query requires specific information, Langchain uses FAISS vectorDB to retrieve relevant data.
--> Response Generation: The LLAMA2 model generates a response based on the processed input and retrieved data.
--> User Output: The response is sent back to the user.
+1) User Input: The user inputs a query.
+2) Processing: Langchain processes the input and interacts with the LLAMA2 model.
+3) Query Handling: If the query requires specific information, Langchain uses FAISS vectorDB to retrieve relevant data.
+4) Response Generation: The LLAMA2 model generates a response based on the processed input and retrieved data.
+5) User Output: The response is sent back to the user.
