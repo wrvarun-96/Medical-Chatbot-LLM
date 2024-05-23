@@ -20,7 +20,7 @@ The integration of FAISS vectorDB significantly enhances the chatbot's ability t
 - **Scalable Architecture**:
 The chatbot is built using Langchain, a framework designed to manage the flow of conversations and maintain context over multiple interactions. Langchain's capabilities allow the chatbot to handle complex dialogue structures, ensuring that it can follow and contribute to extended conversations without losing track of context. This scalability is crucial for providing consistent and coherent responses, especially in dynamic and multi-turn conversations, which are common in medical consultations.
 
-- These features combine to create a robust, responsive, and user-friendly medical chatbot capable of delivering high-quality medical information and support.
+These features combine to create a robust, responsive, and user-friendly medical chatbot capable of delivering high-quality medical information and support.
   
 ## Architecture
 The Medical Chatbot is built using the following components:
