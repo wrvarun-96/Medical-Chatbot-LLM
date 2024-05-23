@@ -7,15 +7,15 @@ Efficient Querying: Integrates FAISS vectorDB for fast and accurate information 
 Scalable Architecture: Built with Langchain to manage the conversation flow and maintain context.
 Table of Contents
 1) Installation
-Usage
-Architecture
+2) Usage
+3) Architecture
 ## Installation
 Prerequisites
 Ensure you have the following installed:
 
-Python 3.8 or higher
-pip (Python package installer)
-git
+1)Python 3.9 or higher
+2)pip (Python package installer)
+3) git
 ## Steps
 Clone the repository:
 
@@ -41,12 +41,12 @@ Once the chatbot is running, you can interact with it via the terminal or a web 
 ## Architecture
 The Medical Chatbot is built using the following components:
 
-LLAMA2 LLM: Provides the natural language understanding and generation capabilities.
-Langchain: Manages the conversation flow and maintains context across interactions.
-FAISS vectorDB: Facilitates fast and efficient information retrieval for answering queries.
-High-Level Overview
-User Input: The user inputs a query.
-Processing: Langchain processes the input and interacts with the LLAMA2 model.
-Query Handling: If the query requires specific information, Langchain uses FAISS vectorDB to retrieve relevant data.
-Response Generation: The LLAMA2 model generates a response based on the processed input and retrieved data.
-User Output: The response is sent back to the user.
+-> LLAMA2 : Provides the natural language understanding and generation capabilities.
+-> Langchain: Manages the conversation flow and maintains context across interactions.
+-> FAISS vectorDB: Facilitates fast and efficient information retrieval for answering queries.
+## High-Level Overview
+-> User Input: The user inputs a query.
+-> Processing: Langchain processes the input and interacts with the LLAMA2 model.
+-> Query Handling: If the query requires specific information, Langchain uses FAISS vectorDB to retrieve relevant data.
+-> Response Generation: The LLAMA2 model generates a response based on the processed input and retrieved data.
+-> User Output: The response is sent back to the user.
