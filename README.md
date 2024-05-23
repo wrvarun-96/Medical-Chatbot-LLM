@@ -1,4 +1,4 @@
-# Medical Chatbot
+# Medical Chatbot LLM
 This project is a comprehensive Medical Chatbot designed to provide accurate and relevant medical information and respond to health-related queries. The core of the chatbot is built using the LLAMA2 Large Language Model (LLM), known for its advanced natural language processing capabilities. By utilizing Langchain, the chatbot effectively manages conversation flow and maintains context throughout interactions, ensuring coherent and contextually appropriate responses.
 
 In addition to these components, the chatbot employs FAISS vectorDB for efficient and rapid information retrieval. This enables the system to quickly access and deliver relevant data from a vast pool of medical knowledge, enhancing the user experience by providing timely and precise answers. The integration of these technologies ensures that the chatbot not only understands and processes user queries accurately but also delivers information in a manner that is both informative and easy to comprehend.
