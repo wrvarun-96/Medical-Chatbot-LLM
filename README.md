@@ -2,39 +2,35 @@
 This project is a Medical Chatbot built using the LLAMA2 Large Language Model (LLM) with Langchain and FAISS vectorDB. The chatbot is designed to provide medical information and answer health-related queries.
 
 ## Features
-Conversational AI: Utilizes the LLAMA2 LLM for natural language understanding and response generation.
-Efficient Querying: Integrates FAISS vectorDB for fast and accurate information retrieval.
-Scalable Architecture: Built with Langchain to manage the conversation flow and maintain context.
+- **Conversational AI:** Utilizes the LLAMA2 LLM for natural language understanding and response generation.
+- **Efficient Querying:** Integrates FAISS vectorDB for fast and accurate information retrieval.
+- **Scalable Architecture:** Built with Langchain to manage the conversation flow and maintain context.
+
 Table of Contents
-1) Installation
-2) Usage
-3) Architecture
+- [Installation](#installation)
+- [Usage](#usage)
+- [Architecture](#architecture)
 ## Installation
-Prerequisites
+### Prerequisites
+
 Ensure you have the following installed:
 
-1) Python 3.9 or higher
-2) pip (Python package installer)
-3) git
+- Python 3.8 or higher
+- pip (Python package installer)
+- git
 ## Steps
-Clone the repository:
+1. **Clone the repository:**
 
-bash
-Copy code
-git clone https://github.com/wrvarun-96/Medical_Chatbot.git
-cd Medical_Chatbot
-Install the required packages:
+    ```bash
+    git clone https://github.com/yourusername/Medical_Chatbot.git
+    cd Medical_Chatbot
+    ```
 
-bash
-Copy code
-pip install -r requirements.txt
-## Usage
-Running the Chatbot
-To start the chatbot, run the following command:
+2. **Install the required packages:**
 
-bash
-Copy code
-python main.py
+    ```bash
+    pip install -r requirements.txt
+    ```
 Interacting with the Chatbot
 Once the chatbot is running, you can interact with it via the terminal or a web interface (if implemented). Simply type your medical queries, and the chatbot will respond with relevant information.
 
