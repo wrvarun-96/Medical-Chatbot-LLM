@@ -11,13 +11,13 @@ In addition to these components, the chatbot employs FAISS vectorDB for efficien
 - [Usage](#usage)
 - 
 ## Features
-- **Conversational AI:
+- **Conversational AI**:
 The chatbot utilizes the LLAMA2 Large Language Model (LLM) to understand and generate natural language responses. LLAMA2 is a state-of-the-art language model capable of processing complex medical terminology and providing accurate, context-aware answers to user queries. Its advanced natural language understanding capabilities ensure that the chatbot can handle a wide range of questions with high precision, making interactions feel seamless and human-like.
 
-- **Efficient Querying:
+- **Efficient Querying**:
 The integration of FAISS vectorDB significantly enhances the chatbot's ability to retrieve information quickly and accurately. FAISS (Facebook AI Similarity Search) is a powerful library for efficient similarity search and clustering of dense vectors. By leveraging FAISS, the chatbot can swiftly search through large datasets of medical information to find the most relevant data points in response to user queries. This ensures that users receive timely and pertinent information, improving the overall user experience.
 
-- **Scalable Architecture:
+- **Scalable Architecture**:
 The chatbot is built using Langchain, a framework designed to manage the flow of conversations and maintain context over multiple interactions. Langchain's capabilities allow the chatbot to handle complex dialogue structures, ensuring that it can follow and contribute to extended conversations without losing track of context. This scalability is crucial for providing consistent and coherent responses, especially in dynamic and multi-turn conversations, which are common in medical consultations.
 These features combine to create a robust, responsive, and user-friendly medical chatbot capable of delivering high-quality medical information and support.
   
