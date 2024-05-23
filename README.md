@@ -6,7 +6,7 @@ This project is a Medical Chatbot built using the LLAMA2 Large Language Model (L
 - **Efficient Querying:** Integrates FAISS vectorDB for fast and accurate information retrieval.
 - **Scalable Architecture:** Built with Langchain to manage the conversation flow and maintain context.
 
-Table of Contents
+## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Architecture](#architecture)
