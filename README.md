@@ -39,6 +39,7 @@ If the user’s query requires specific information from a large dataset, Langch
 With the relevant data retrieved, the LLAMA2 model comes into play. This large language model generates a comprehensive and contextually appropriate response by integrating the processed user input with the retrieved information. LLAMA2's advanced natural language generation capabilities ensure that the response is not only accurate but also easy to understand for the user.
 - **User Output**:
 Finally, the generated response is sent back to the user. The chatbot presents the information in a clear and user-friendly manner, ensuring that the user can easily understand the provided medical information or advice. This output can be delivered through the same interface where the query was input, providing a seamless interaction experience.
+
 This multi-step process ensures that the chatbot can provide accurate, relevant, and contextually appropriate responses to a wide range of medical queries, enhancing the overall user experience and reliability of the system.
    
 ## Installation
