@@ -9,7 +9,7 @@ In addition to these components, the chatbot employs FAISS vectorDB for efficien
 - [Installation](#installation)
 - [Steps](#steps)
 - [Usage](#usage)
-- 
+
 ## Features
 - **Conversational AI**:
 The chatbot utilizes the LLAMA2 Large Language Model (LLM) to understand and generate natural language responses. LLAMA2 is a state-of-the-art language model capable of processing complex medical terminology and providing accurate, context-aware answers to user queries. Its advanced natural language understanding capabilities ensure that the chatbot can handle a wide range of questions with high precision, making interactions feel seamless and human-like.
