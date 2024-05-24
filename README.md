@@ -68,7 +68,7 @@ Running the Chatbot
 To start the chatbot, run the following command:
 
 ```bash
-python main.py
+python app.py
 ```
 Interacting with the Chatbot
 Once the chatbot is running, you can interact with it via the terminal or a web interface (if implemented). Simply type your medical queries, and the chatbot will respond with relevant information.
