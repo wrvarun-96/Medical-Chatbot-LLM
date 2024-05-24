@@ -28,6 +28,8 @@ The Medical Chatbot is built using the following components:
 2) Langchain: Manages the conversation flow and maintains context across interactions.
 3) FAISS vectorDB: Facilitates fast and efficient information retrieval for answering queries.
 
+![Architecture](IMG_1641.jpeg)
+
 ## High-Level Overview
 - **User Input**:
 The interaction begins when the user inputs a query into the chatbot interface. This query can range from general health questions to specific medical concerns. The chatbot is designed to handle a variety of input formats, including text and potentially voice inputs, depending on the implementation.
