@@ -3,3 +3,5 @@ sentence-transformers
 pinecone-client
 langchain
 flask
+streamlit
+chainlit
